@@ -33,10 +33,16 @@ python src/fetchThread.py
 ### (Project Structure)
 
 pro1/
-├─ src/          # Python scripts
-│   ├─ db.py
-│   └─ fetchThread.py
-├─ data/         # CSV/JSON data (ignored in Git)
-├─ .env.example  # Template for environment variables
-├─ .gitignore
+src/          # Python scripts
+   db.py
+   fetchThread.py
+data/         # CSV/JSON data (ignored in Git)
+.env.example  # Template for environment variables
+.gitignore
 
+
+## Notes
+
+- `.env` contains sensitive data and is **not included** in the repository.
+- `data/` folder is ignored to avoid large files.
+- Multi-threaded requests are used to fetch data faster.
