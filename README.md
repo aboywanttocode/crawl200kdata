@@ -32,13 +32,13 @@ python src/fetchThread.py
 
 ### (Project Structure)
 
-pro1/
-src/          # Python scripts
+# pro1/
+# src/          # Python scripts
    db.py
    fetchThread.py
-data/         # CSV/JSON data (ignored in Git)
-.env.example  # Template for environment variables
-.gitignore
+# data/         # CSV/JSON data (ignored in Git)
+# .env.example  # Template for environment variables
+# .gitignore
 
 
 ## Notes
