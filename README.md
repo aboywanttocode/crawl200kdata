@@ -26,18 +26,18 @@ Run the main script:
 ```bash
 python src/fetchThread.py
 ```
-- Mô tả **cách chạy code**.
 
----
 
 ### (Project Structure)
 
 # pro1/
 # src/          # Python scripts
-   db.py
-   fetchThread.py
-# data/         # CSV/JSON data (ignored in Git)
-# .env.example  # Template for environment variables
+      db.py
+      fetchThread.py
+# data/         
+    CSV/JSON data (ignored in Git)
+# .env.example  
+    Template for environment variables
 # .gitignore
 
 
